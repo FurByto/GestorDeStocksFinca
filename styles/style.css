@@ -1,0 +1,48 @@
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+h2{
+    font-size: larger;
+}
+
+#logo{
+    max-height: 150px
+}
+
+#consultarClima {
+    font-size: 1.2rem
+}
+
+#weather{
+    font-size: 1.2rem;
+    background-color: aqua;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#container {
+    text-align: center;
+    background-color: rgb(99, 141, 218);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    border-style: double;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#titulo{
+    text-align: center;
+    background-color: rgb(99, 141, 218);
+    padding: 20px;
+    margin: 15px;
+    border-radius: 15px;
+    border-style: double;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#intCont{
+    display: flex;
+    justify-content: center;
+}

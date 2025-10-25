@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Stocks empresa agricola</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+ </head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <img src="assets/logoFarmland.png" alt="Imagen de logo de la empresa Farmland" id="logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About us</a>
+                </li>                
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            </div>
+        </div>
+        </nav>
+    </header>
+
+    <section>
+
+        <div id="titulo">
+            <h1 style="color: aliceblue;">Bienvenidos al gestor de stocks de la empresa</h1>
+
+        </div>
+
+
+        <div>
+            <h2>Consulta de stock</h2>
+            <button id="botonConsultaStock">Consultar Stock actual</button>
+
+
+        </div>
+
+        <div>
+            <h2>Registro de uso de productos</h2>
+            <button id="registroUsoProductos">Registrar uso de productos</button>
+
+
+        </div>
+
+
+        <div>
+            <h2>Recepción de productos</h2>
+            <button id="recepcion">Recepción de productos</button>
+
+
+        </div>
+
+
+    </section>
+      
+    <section>
+        <div id="container">
+            <div id="intCont">
+                <img style="width: 50px;" src="assets/sol.webp" alt="imagen de sol">
+                <h1 style="color: aliceblue;">Clima</h1> 
+            </div>
+
+
+                <div id="weather">
+                    <h2>Consultar clima antes de hacer una aplicación</h2>
+                    <button id="consultarClima">Consultar clima</button>
+                </div>
+
+        </div>
+    </section>
+</body>
+</html>
